@@ -33,7 +33,7 @@
       </div>
 
       </div>
-      <button type="submit" class="bg-orange-400 text-black px-6 py-3 rounded-lg text-xl -ml-0.2">Voeg toe</button>
+      <button type="submit" class="bg-red-400 text-black px-6 py-3 rounded-lg text-xl -ml-0.2">Voeg toe</button>
     </form>
   </div>
 </template>
