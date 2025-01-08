@@ -13,13 +13,12 @@
           required />
       </div>
       <div>
-        <label for="tijd" class="block font-semibold">Lap time:</label>
+        <label for="time" class="block font-semibold">Lap time:</label>
         <input class="w-full border rounded p-2" 
+        v-model="time"
         type="time" 
         id="time" 
-        name="tijd" 
-        min="00:00:00" 
-        max="05:00:00" 
+        name="time"  
         required />
       </div>
       <div>
@@ -40,5 +39,23 @@
 </template>
 
 <script setup>
+import { ref } from 'vue';
+import { useTimes } from '@/composables/useTime.js';
+import { useRouter } from 'vue-router';
 
+const { addTime } = useTimes();
+const router = useRouter();
+
+const title = ref('');
+const time = ref('');
+const date = ref('');
+
+const handleSubmit = () => {
+  if (title.value && time.value && date.value) {
+    addTime(title.value, time.value, date.value);
+    router.push('/Leaderboard');
+  } else {
+    alert('Please fill in all fields');
+  }
+};
 </script>
