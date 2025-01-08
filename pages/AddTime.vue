@@ -42,6 +42,9 @@
 import { ref } from 'vue';
 import { useTimes } from '@/composables/useTime.js';
 import { useRouter } from 'vue-router';
+import { useToast } from 'vue-toastification'
+
+const toast = useToast()
 
 const { addTime } = useTimes();
 const router = useRouter();
@@ -52,6 +55,7 @@ const date = ref('');
 
 const handleSubmit = () => {
   if (title.value && time.value && date.value) {
+    toast.success('Race toegevoegd!');
     addTime(title.value, time.value, date.value);
     router.push('/Leaderboard');
   } else {

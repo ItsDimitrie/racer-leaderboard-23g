@@ -8,7 +8,7 @@
   <div class="container mx-auto p-4">
     <div v-if="times.length" v-for="time in times" :key="time.id" class="container rounded-xl mx-auto p-4 w-80 text-center shadow-xl m-5">
       <h2 class="text-xl font-semibold">{{ time.title }}</h2>
-      <p class="text-gray-600">Ronde tijd :{{ time.time }}</p>
+      <p class="text-gray-600">Ronde tijd - {{ time.time }}</p>
       <p class="text-gray-600">Datum : {{ time.date }}</p>
 
       <div class="mt-2 gap-2">
