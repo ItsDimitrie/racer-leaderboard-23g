@@ -2,74 +2,26 @@
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+# Meeloopopdracht 23G
 
-Make sure to install dependencies:
+De opdracht
 
-```bash
-# npm
-npm install
+Zoals je inmiddels wel gezien hebt hebben we een mooie racesimulator op kantoor staan waar veelvuldig gebruik van wordt gemaakt. Vandaag is het aan jou om hiervoor een leaderboardapplicatie te maken waarin we de rondetijden kunnen bijhouden. De applicatie moet minimaal voldoen aan de volgende user stories:
 
-# pnpm
-pnpm install
+Als gebruiker kan ik vanaf elke pagina een nieuwe rondetijd invoeren.
+Als gebruiker ben ik verplicht de volgende velden mee te sturen bij het invoeren van een nieuwe tijd: rondetijd, racer, datum en tijd van invoeren.
+Als gebruiker kan ik navigeren naar een pagina waarop alle ingevoerde rondetijden te zien zijn.
+Als gebruiker kan ik navigeren naar de leaderboardpagina waarop de beste tijd per racer te zien is, gesorteerd op snelste tijd.
+Extra informatie
 
-# yarn
-yarn install
+Grafisch gezien hoeft het wat ons betreft niet heel spannend te worden. Wat we wel belangrijk vinden is dat de UX goed is. Het is dus aan jou om de applicatie gebruiksvriendelijk, toegankelijk en logisch te maken.
+De racers kun je uit een JSON-bestand halen. Deze kun je vinden in de map static/json.
+Het daadwerkelijk opslaan en uitlezen van dynamische data is voor nu niet nodig. Het is wel belangrijk dat je hier al rekening mee houdt.
+Nice to have
 
-# bun
-bun install
-```
+Tailwind gebruiken
+Werken met Pull Requests.
+Filteren en sorteren.
 
-## Development Server
+08-01-2025
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
