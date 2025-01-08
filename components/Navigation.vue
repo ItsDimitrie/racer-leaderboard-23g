@@ -13,7 +13,7 @@
           <NuxtLink class="bg-orange-400 text-black px-6 py-3 rounded-lg text-xl" to="/Leaderboard">Leaderboard</NuxtLink>
         </li>
         <li>
-          <NuxtLink class="bg-orange-400 text-black px-6 py-3 rounded-lg text-xl" to="/AddTime">Nieuwe rondetijd</NuxtLink>
+          <NuxtLink class="bg-orange-400 text-black px-6 py-3 rounded-lg text-xl" to="/AddTime">Voeg nieuwe rondetijd toe</NuxtLink>
         </li>
       </ul>
     </nav>

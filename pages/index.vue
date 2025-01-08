@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto p-10 text-center">
+  <div class="container mx-auto p-10 text-center ">
     <img src="/racer.png" alt="Logo" class="w-200 h-200 m-auto mb-10" />
 
     <h1 class="text-4xl font-bold mb-4">Welcome bij het 23G Racer Leaderboard</h1>
